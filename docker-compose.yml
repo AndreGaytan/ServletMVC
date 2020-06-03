@@ -12,5 +12,4 @@ services:
     - "8080:8080"
    links:
     - "db:webapp"
-   build: mvcservlet
 
