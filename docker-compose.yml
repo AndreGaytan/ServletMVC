@@ -6,7 +6,7 @@ services:
   ports:
    - "3306:3306"
  web:
-   image: andregaytan/servletsmvcwebapp
+   image: andregaytan/servletmvc.com
    container_name: mvcservlets
    ports:
     - "8080:8080"
